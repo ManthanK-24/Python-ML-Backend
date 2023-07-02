@@ -1,4 +1,4 @@
-Statistical Model:
+Statistical Models:
 Statistical models are mathematical representations used to describe and analyze data and make predictions or inferences based on that data. These models capture the underlying statistical relationships and patterns within the data, allowing us to gain insights, understand the data-generating process, and make informed decisions.
 
 Statistical models can take various forms, including regression models, time series models, classification models, and more. Let's explain with an example of a linear regression model:

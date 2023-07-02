@@ -31,3 +31,24 @@ print(String2)
 #2
 String3 = String1[0:2] + 'p' + String1[3:]
 print(String3)
+
+String1 = "\110\145\154\154\157"
+print("\nPrinting in Octal with the use of Escape Sequences: ")
+print(String1) #prints Hello
+ 
+# Using raw String to
+# ignore Escape Sequences
+String1 = r"This is \110\145\154\154\157"
+print("\nPrinting Raw String in Octal Format: ")
+print(String1) #Prints \110\145\154\154\157
+ 
+# Printing Geeks in HEX
+String1 = "This is \x47\x65\x65\x6b\x73 in \x48\x45\x58"
+print("\nPrinting in HEX with the use of Escape Sequences: ")
+print(String1) #Prints This is Geeks in HEX
+ 
+# Using raw String to
+# ignore Escape Sequences
+String1 = r"This is \x47\x65\x65\x6b\x73 in \x48\x45\x58"
+print("\nPrinting Raw String in HEX Format: ")
+print(String1) #Prints \x47\x65\x65\x6b\x73 in \x48\x45\x58

@@ -1,7 +1,8 @@
-# Tuple is like a list but we can't modify, tuple once declared
+# Tuple is like a list but we can't modify a tuple once declared
 tup = (1,2,3)
 li = [1,2,3]
 
+# String is also like tuple i.e immutable
 # Printing 3rd to 12th character
 print("\nSlicing characters from 3-12: ")
 print(String1[3:12])
@@ -52,3 +53,10 @@ print(String1) #Prints This is Geeks in HEX
 String1 = r"This is \x47\x65\x65\x6b\x73 in \x48\x45\x58"
 print("\nPrinting Raw String in HEX Format: ")
 print(String1) #Prints \x47\x65\x65\x6b\x73 in \x48\x45\x58
+
+
+# List is mutable
+# To print elements from the beginning to a range use: print(lst[: Index])
+# To print elements from end-use: print(lst[:-Index])
+# To print elements from a specific Index till the end use: print(lst[Index:])
+# To print the whole list in reverse order, use: print(lst[::-1]) 

@@ -101,3 +101,28 @@ type(var) # set
 #s1 – s2	#the set of elements in s1 but not s2
 #s1 ˆ s2	#the set of elements in precisely one of s1 or s2
 
+
+# Dictionary
+Dict = {}
+print("Empty Dictionary: ")
+print(Dict)
+  
+# Creating a Dictionary
+# with dict() method
+Dict = dict({1: 'Geeks', 2: 'For', 3: 'Geeks'})
+print("\nDictionary with the use of dict(): ")
+print(Dict)
+  
+# Creating a Dictionary
+# with each item as a Pair
+Dict = dict([(1, 'Geeks'), (2, 'For')])
+print("\nDictionary with each item as a pair: ")
+print(Dict)
+
+Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
+  
+# accessing an element using get()
+# method
+print("Accessing a element using get:")
+print(Dict.get(3))
+print(Dict[3])

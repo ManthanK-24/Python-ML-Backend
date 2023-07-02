@@ -2,7 +2,7 @@
 tup = (1,2,3)
 li = [1,2,3]
 
-# String is also like tuple i.e immutable
+# String is also like a tuple i.e immutable
 # Printing 3rd to 12th character
 print("\nSlicing characters from 3-12: ")
 print(String1[3:12])
@@ -60,3 +60,28 @@ print(String1) #Prints \x47\x65\x65\x6b\x73 in \x48\x45\x58
 # To print elements from end-use: print(lst[:-Index])
 # To print elements from a specific Index till the end use: print(lst[Index:])
 # To print the whole list in reverse order, use: print(lst[::-1]) 
+
+#filter 
+# A list contains both even and odd numbers.
+seq = [0, 1, 2, 3, 5, 8, 13]
+
+# result contains odd numbers of the list
+result = filter(lambda x: x % 2 != 0, seq)
+print(list(result)) #[1, 3, 5, 13]
+
+# result contains even numbers of the list
+result = filter(lambda x: x % 2 == 0, seq)
+print(list(result)) #[0, 2, 8]
+
+
+#map
+numbers = (1, 2, 3, 4)
+result = map(lambda x: x + x, numbers)
+print(list(result)) #[2, 4, 6, 8]
+
+#lambda
+# This function can have any number of arguments but only one expression, which is evaluated and returned.
+mx = lambda a, b : a if(a > b) else b
+print(mx(1, 2))
+
+# Immutable objects like tuples, strings can be deleted entirely

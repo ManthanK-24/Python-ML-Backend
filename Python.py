@@ -84,4 +84,20 @@ print(list(result)) #[2, 4, 6, 8]
 mx = lambda a, b : a if(a > b) else b
 print(mx(1, 2))
 
-# Immutable objects like tuples, strings can be deleted entirely
+# Immutable objects like tuples and strings can be deleted completely only
+
+var = {"Geeks", "for", "Geeks"}
+type(var) # set
+#key in s	#containment check
+#key not in s	#non-containment check
+#s1 == s2	#s1 is equivalent to s2
+#s1 != s2	#s1 is not equivalent to s2
+#s1 <= s2	#s1 is subset of s2
+#s1 < s2	#s1 is proper subset of s2
+#s1 >= s2	#s1 is superset of s2
+#s1 > s2	#s1 is proper superset of s2
+#s1 | s2	#the union of s1 and s2
+#s1 & s2	#the intersection of s1 and s2
+#s1 – s2	#the set of elements in s1 but not s2
+#s1 ˆ s2	#the set of elements in precisely one of s1 or s2
+

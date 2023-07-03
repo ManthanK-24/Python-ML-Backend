@@ -1,0 +1,56 @@
+
+
+TCP (Transmission Control Protocol) is one of the main protocols of the Internet protocol suite. It lies between the Application and Network Layers which are used in 
+providing reliable delivery services. It is a connection-oriented protocol for communications that helps in the exchange of messages between different devices over a network. 
+The Internet Protocol (IP), which establishes the technique for sending data packets between computers, works with TCP. 
+
+TCP keeps track of the segments being transmitted or received by assigning numbers to every single one of them.
+Flow control limits the rate at which a sender transfers data. This is done to ensure reliable delivery.
+TCP implements an error control mechanism for reliable data transfer.
+TCP takes into account the level of congestion in the network.
+
+Advantages of TCP
+It is reliable for maintaining a connection between Sender and Receiver.
+It is responsible for sending data in a particular sequence.
+Its operations are not dependent on OS.
+It allows and supports many routing protocols.
+It can reduce the speed of data based on the speed of the receiver.
+
+Disadvantages of TCP
+It is slower than UDP and it takes more bandwidth.
+Slower upon starting of transfer of a file.
+Not suitable for LAN and PAN Networks.
+It does not have a multicast or broadcast category.
+It does not load the whole page if a single data of the page is missing.
+
+User Datagram Protocol (UDP) is a Transport Layer protocol. UDP is a part of the Internet Protocol suite, referred to as the UDP/IP suite. Unlike TCP, 
+it is an unreliable and connectionless protocol. So, there is no need to establish a connection before data transfer. The UDP helps to establish low-latency 
+and loss-tolerating connections establish over the network. The UDP enables process-to-process communication.
+
+Features of UDP
+Used for simple request-response communication when the size of data is less and hence there is lesser concern about flow and error control.
+It is a suitable protocol for multicasting as UDP supports packet switching.
+UDP is used for some routing update protocols like RIP(Routing Information Protocol).
+Normally used for real-time applications which can not tolerate uneven delays between sections of a received message.
+
+Advantages of UDP
+It does not require any connection for sending or receiving data.
+Broadcast and Multicast are available in UDP.
+UDP can operate on a large range of networks.
+UDP has live and real-time data.
+UDP can deliver data if all the components of the data are not complete.
+
+Disadvantages of UDP
+We can not have any way to acknowledge the successful transfer of data.
+UDP cannot have the mechanism to track the sequence of data.
+UDP is connectionless, and due to this, it is unreliable to transfer data.
+In case of a Collision, UDP packets are dropped by Routers in comparison to TCP.
+UDP can drop packets in case of detection of errors.
+
+Which Protocol is Better: TCP or UDP?
+The answer to this question is difficult because it totally depends on what work we are doing and what type of data is being delivered. UDP is better in the case of 
+online gaming as it allows us to work lag-free. TCP is better if we are transferring data like photos, videos, etc. because it ensures that data must be correct has 
+to be sent.
+
+In general, both TCP and UDP are useful in the context of the work assigned by us. Both have advantages upon the works we are performing, that’s why it is 
+difficult to say, which one is better.

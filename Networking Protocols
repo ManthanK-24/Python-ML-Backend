@@ -114,7 +114,8 @@ The server processes a request, which is raised by the client, and also server a
 Any type of content can be exchanged as long as the server and client are compatible with it. 
 Once data is exchanged, servers and clients are no longer connected. 
 It is a request and response protocol based on client and server requirements. 
-It is a connection-less protocol because after the connection is closed, the server does not remember anything about the client and the client does not remember anything about the server. 
+It is a connection-less protocol because after the connection is closed, the server does not remember anything about the client and the client does not remember anything 
+about the server. 
 It is a stateless protocol because both client and server do not expect anything from each other but they are still able to communicate. 
 
 Advantages of HTTP
@@ -129,4 +130,17 @@ HTTP requires high power to establish communication and transfer data.
 HTTP is less secure because it does not use any encryption method like HTTPS and use TLS to encrypt regular HTTP requests and response.
 HTTP is not optimized for cellular phones and it is too gabby.
 HTTP does not offer a genuine exchange of data because it is less secure.
-The client does not close the connection until it receives complete data from the server; hence, the server needs to wait for data completion and cannot be available for other clients during this time.
+The client does not close the connection until it receives complete data from the server; hence, the server needs to wait for data completion and cannot be available 
+for other clients during this time.
+
+
+Websocket Connection
+
+Client  1)Request---> Server  
+       2)<---Handshake  
+        3) <---> Websocket
+
+WebSocket is a bidirectional communication protocol that can send data from the client to the server or from the server to the client by reusing the 
+established connection channel. The connection is kept alive until terminated by either the client or the server.
+
+Almost all real-time applications like (trading, monitoring, and notification) services use WebSocket to receive the data on a single communication channel.
